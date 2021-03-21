@@ -1,0 +1,85 @@
+
+body
+    background-color: #000   
+    font-family: "David Libre"
+
+.navLogo
+    width: 60px
+    height: 60px
+    padding: 8px
+
+.footer
+    width: 100%
+    height: 50px
+
+
+.navToggle
+    border:0
+
+.navbar
+    box-shadow: 0 2px 2px -2px #ff020280
+
+.bg-dark
+    background-color: #525353 !important
+
+.pageContent
+    min-height: 100vh
+    padding-top: 76px
+
+.card-masked 
+    position: absolute
+    width: 100%
+    height: 180px
+    bottom: 0
+    z-index: 1
+    opacity: 0
+    transform: translate(0px, 180px)
+    -webkit-transform: translate(0px, 180px)
+    -moz-transform: translate(0px, 180px)
+    -ms-transform: translate(0px, 180px)
+    -webkit-transition: all 0.2s ease-in-out
+    -moz-transition: all 0.2s ease-in-out
+    -ms-transition: all 0.2s ease-in-out
+    transition: all 0.2s ease-in-out
+    p
+        padding: 8px 20px
+
+.cFoto
+    background-color: rgba(66, 69, 81, 0.7) !important
+    overflow: hidden
+    max-width: 18rem
+    height: 18rem
+    width: 18rem
+    max-height: 18rem
+    h2
+        position: absolute
+        top: 10px
+        left: 20px
+        font-size: 26px
+        z-index: 1
+    img
+        top: 0
+        left: 0
+        opacity: 0.4
+        object-fit: cover
+        height: 100%
+        width: 100%
+        -webkit-transition: all 4s ease
+        -moz-transition: all 4s ease
+        -ms-transition: all 4s ease
+        transition: all 4s ease
+    &:hover
+        img
+            opacity: 0.1
+            transform: scale(1.5)
+        .card-masked
+            transform: translate(0px, 0px)
+            -webkit-transform: translate(0px, 0px)
+            -moz-transform: translate(0px, 0px)
+            -ms-transform: translate(0px, 0px)
+            opacity: 1
+
+
+
+
+    
