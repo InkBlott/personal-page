@@ -14,14 +14,11 @@ function Navbar() {
             </button>
             <div className="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
                 <ul className="navbar-nav">
-                    <NavLink exact to='/cv' className='nav-link' activeClassName='active'>
-                        CV
+                    <NavLink exact to='/' className='nav-link' activeClassName='active'>
+                        Home
                     </NavLink>
                     <NavLink exact to='/projects' className='nav-link' activeClassName='active'>
                         Projects
-                    </NavLink>
-                    <NavLink exact to='/about-me' className='nav-link' activeClassName='active'>
-                        About
                     </NavLink>
                     <NavLink exact to='/contacts' className='nav-link' activeClassName='active'>
                         Contacts

@@ -10,7 +10,7 @@ function Projects() {
     } )
 
     return(
-      <div className='container pageContent'>
+      <div className='container pageContent d-flex justify-content-center'>
         <div className='card-deck mt-2'>
             {allProjects}
         </div>

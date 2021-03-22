@@ -2,8 +2,8 @@ import img from '../images/battleships.png'
 
 function ProjectCard(props) {
     return(
-        <a href={props.link} target="_blank" rel="noopener noreferrer">
-            <div className="card text-white mb-4 cFoto">
+        <div className="card text-white mb-4 cFoto">
+            <a href={props.link} target="_blank" rel="noopener noreferrer">
                 <h2>{props.title}</h2>
                 <div className='card-masked'>
                     <p>
@@ -11,9 +11,9 @@ function ProjectCard(props) {
                     </p>
                 </div>
                 
-                <img className="card-img-top" src={props.image} alt="Battleships"></img>
-            </div>
-        </a>
+                <img className="card-img-top" src={props.image} alt="Project"></img>
+                </a>
+        </div>
     )
     
 }
