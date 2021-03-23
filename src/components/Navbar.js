@@ -20,9 +20,6 @@ function Navbar() {
                     <NavLink exact to='/projects' className='nav-link' activeClassName='active'>
                         Projects
                     </NavLink>
-                    <NavLink exact to='/contacts' className='nav-link' activeClassName='active'>
-                        Contacts
-                    </NavLink>
                 </ul>
             </div>
         </nav>

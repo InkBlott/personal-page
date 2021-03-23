@@ -29,6 +29,15 @@ function Home() {
         </p>
 
       </div>
+      <div className='row homeRow justify-content-center flex-column'>
+        <h2 className='col-8 align-self-center text-center'>
+         Interested in working together?
+        </h2>
+        <p className='homeText mt-2 mb-5 text-center' >
+          Email me: <a href="mailto:bmantas@tutanota.com">bmantas@tutanota.com</a> 
+        </p>
+      </div>
+      
     </div>
   )
 }

@@ -2,6 +2,7 @@ import battleshipImg from '../images/battleships.png'
 import cssPracticeImg from '../images/practice-css.png'
 import shoppingCartImg from '../images/shopping-cart.jpg'
 import personalImg from '../images/personalpage.png'
+import ballImg from '../images/ball.jpg'
 
 const projectData = [
     {   
@@ -12,7 +13,7 @@ const projectData = [
     },
     {   
         title:'Personal Webpage',
-        link:'https://inkblott.github.io/battleships/',
+        link:'https://github.com/InkBlott/personal-page',
         image: personalImg,
         info: 'GitHub for this website, uses SASS, HTML, React'
     },
@@ -27,6 +28,12 @@ const projectData = [
         link:'https://inkblott.github.io/shopping-cart',
         image: shoppingCartImg,
         info: 'React page made to show shopping cart functionality.'
+    },
+    {
+        title:'Memory game',
+        link:'https://inkblott.github.io/memory/',
+        image: ballImg,
+        info: 'Simple memory game, made using React, JavaScript. Don\'t click on the same ball twice!'
     }
 
 ]

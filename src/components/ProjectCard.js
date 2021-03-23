@@ -2,7 +2,7 @@ import img from '../images/battleships.png'
 
 function ProjectCard(props) {
     return(
-        <div className="card text-white mb-4 cFoto">
+        <div className="card text-white mb-3 cFoto">
             <a href={props.link} target="_blank" rel="noopener noreferrer">
                 <h2>{props.title}</h2>
                 <div className='card-masked'>
