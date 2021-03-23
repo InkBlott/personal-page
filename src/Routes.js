@@ -11,7 +11,6 @@ function Routes() {
         <Router>
             <Navbar/>
             <Switch>
-                <Route exact path='/' component={Home}/>
                 <Route exact path='/personal-page' component={Home}/>
                 <Route exact path='/projects' component={Projects}/>
             </Switch>
