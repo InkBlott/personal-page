@@ -11,7 +11,7 @@ function Projects() {
 
     return(
       <div className='container pageContent d-flex justify-content-center align-items-start'>
-        <div className='card-deck mt-2'>
+        <div className='card-deck mt-2 justify-content-center'>
             {allProjects}
         </div>
       </div>

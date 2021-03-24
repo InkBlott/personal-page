@@ -34,15 +34,17 @@ body
     height: 180px
     bottom: 0
     z-index: 1
-    opacity: 0
-    transform: translate(0px, 180px)
-    -webkit-transform: translate(0px, 180px)
-    -moz-transform: translate(0px, 180px)
-    -ms-transform: translate(0px, 180px)
-    -webkit-transition: all 0.2s ease-in-out
-    -moz-transition: all 0.2s ease-in-out
-    -ms-transition: all 0.2s ease-in-out
-    transition: all 0.2s ease-in-out
+    opacity: 1
+    @media (min-width: 992px) 
+        opacity: 0
+        transform: translate(0px, 180px)
+        -webkit-transform: translate(0px, 180px)
+        -moz-transform: translate(0px, 180px)
+        -ms-transform: translate(0px, 180px)
+        -webkit-transition: all 0.2s ease-in-out
+        -moz-transition: all 0.2s ease-in-out
+        -ms-transition: all 0.2s ease-in-out
+        transition: all 0.2s ease-in-out
     p
         padding: 8px 20px
 
@@ -65,24 +67,30 @@ body
             font-size: 26px
             z-index: 1
         img
-            opacity: 0.4
+            opacity: 0.25
             object-fit: cover
             height: 100%
             width: 100%
-            -webkit-transition: all 4s ease
-            -moz-transition: all 4s ease
-            -ms-transition: all 4s ease
-            transition: all 4s ease
-    &:hover
+            min-width: 100%
+            min-height: 100%
+            @media (min-width: 992px) 
+                opacity: 0.4
+                -webkit-transition: all 4s ease
+                -moz-transition: all 4s ease
+                -ms-transition: all 4s ease
+                transition: all 4s ease
+    &:hover  
         img
-            opacity: 0.1
-            transform: scale(1.5)
+            @media (min-width: 992px)
+                opacity: 0.1
+                transform: scale(1.5)
         .card-masked
-            transform: translate(0px, 0px)
-            -webkit-transform: translate(0px, 0px)
-            -moz-transform: translate(0px, 0px)
-            -ms-transform: translate(0px, 0px)
-            opacity: 1
+            @media (min-width: 992px)
+                transform: translate(0px, 0px)
+                -webkit-transform: translate(0px, 0px)
+                -moz-transform: translate(0px, 0px)
+                -ms-transform: translate(0px, 0px)
+                opacity: 1
 
 .gitIcon
 
