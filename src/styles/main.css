@@ -65,6 +65,8 @@ body {
   min-height: 18rem;
   min-width: 18rem;
   max-height: 18rem;
+  width: 18rem;
+  height: 18rem;
 }
 .cFoto a {
   text-decoration: none;
